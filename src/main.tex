@@ -1,6 +1,8 @@
+% TODO: cite https://github.com/niklas-heer/speed-comparison
 \documentclass{beamer}
 \usepackage{textcomp}
-
+\usepackage[normalem]{ulem}
+\usepackage{listings}
 
 \title{Warum ist Python so cool\textinterrobang}
 \author{Lars Quentin}
@@ -10,10 +12,8 @@
 \begin{document}
 \frame{\titlepage}
 
+% TODO: cite
 \section{Wie beliebt ist Python?}
-% Note tiobe index
-% Stack overflow developer survey
-% 83,052 responses
 {
   \usebackgroundtemplate{
   \includegraphics[height=\paperheight,width=\paperwidth]{assets/so1.png}
@@ -35,6 +35,106 @@
   \begin{frame}[plain]
   \end{frame}
 }
-\section{Warum ist Python so beliebt?}
+
+\section{Was macht Python so besonders?}
+% Erforschen wir mal die Möglichkeiten
+
+\begin{frame}
+\begin{center}
+{\usebeamerfont*{frametitle} \Huge Plattformexklusivität?}\\~\\
+\pause
+Nein!
+\end{center}
+\end{frame}
+
+\begin{frame}
+\begin{center}
+{\usebeamerfont*{frametitle} \Huge Performance?}
+\end{center}
+\end{frame}
+
+{
+  \usebackgroundtemplate{
+  \includegraphics[height=\paperheight,width=\paperwidth]{assets/bench.png}
+  }
+  \begin{frame}[plain]
+  \end{frame}
+}
+
+\begin{frame}
+\begin{center}
+{\usebeamerfont*{frametitle} \Huge Performance?}\\~\\
+lol
+\end{center}
+\end{frame}
+
+\begin{frame}[t]{Was macht Python so besonders?}
+Also... was ist es nun?
+\pause
+\begin{itemize}
+\item \sout{Plattformexklusivität}
+\pause
+\item \sout{Performance}
+\pause
+\item Revolutionäre Paradigmen?
+\end{itemize}
+\end{frame}
+
+\begin{frame}[t]{Was macht Python so besonders?}
+Also... was ist es nun?
+\begin{itemize}
+\item \sout{Plattformexklusivität}
+\item \sout{Performance}
+\item \sout{Revolutionäre Paradigmen?}
+\item Einfach bugfreie Programme zu schreiben? % ne das ist haskell :^)
+\end{itemize}
+\end{frame}
+
+\begin{frame}[t]{Was macht Python so besonders?}
+Also... was ist es nun?
+\begin{itemize}
+\item \sout{Plattformexklusivität}
+\item \sout{Performance}
+\item \sout{Revolutionäre Paradigmen?}
+\item \sout{Einfach bugfreie Programme zu schreiben?}
+\item Besondere Sprachfeatures für ML, Webdev, Web3, Embedded...
+\end{itemize}
+\end{frame}
+
+\begin{frame}[t]{Was macht Python so besonders?}
+Also... was ist es nun?
+\begin{itemize}
+\item \sout{Plattformexklusivität}
+\item \sout{Performance}
+\item \sout{Revolutionäre Paradigmen?}
+\item \sout{Einfach bugfreie Programme zu schreiben?}
+\item \sout{Besondere Sprachfeatures für ML, Webdev, Web3, Embedded...}
+\end{itemize}
+\begin{center}
+{~\\~\\\Huge ???????}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\begin{center}
+{\usebeamerfont*{frametitle} \Huge Python ist langweilig.}\\~\\
+\pause
+{\Large Und langweilig ist simpel.}
+\end{center}
+\end{frame}
+
+\begin{frame}[t]{Aufgabenstellung}
+\textbf{Gegeben:}\\
+\vspace{0.2cm}
+Eine Textdatei mit kommaseparierten Ganzzahlen\\~\\~\\~\\
+\textbf{Aufgabe:}
+\begin{itemize}
+\item Lies die Datei ein
+\item Berechne die Summe
+\item Berechne die Anzahl der Elemente
+\item Gebe den Mittelwert aus
+\end{itemize}
+\end{frame}
+
 
 \end{document}
