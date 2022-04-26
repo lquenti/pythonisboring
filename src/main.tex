@@ -1,6 +1,4 @@
 % TODO: cite https://github.com/niklas-heer/speed-comparison
-% TODO: Ueberall pauses setzen
-% TODO: gender neutral
 \documentclass{beamer}
 \usepackage{textcomp}
 \usepackage[normalem]{ulem}
@@ -70,6 +68,12 @@ Nein!
 \begin{center}
 {\usebeamerfont*{frametitle} \Huge Performance?}\\~\\
 lol
+\end{center}
+\end{frame}
+
+\begin{frame}
+\begin{center}
+{\usebeamerfont*{frametitle} \Huge Libraries?}
 \end{center}
 \end{frame}
 
@@ -177,13 +181,20 @@ Vieles!
 \begin{center}
 \LARGE Was braucht man f\"ur Vorwissen?
 \end{center}
+\pause
 \begin{itemize}
 \item Typensysteme? Integergr\"o\ss{}en?
+\pause
 \item Kommandozeile?
+\pause
 \item Compiler?
+\pause
 \item Speicher?
+\pause
 \item Build Systems?
+\pause
 \item reinterpret\_cast\textless bool(\_\_stdcall*)(const char*, const char*)\textgreater?
+\pause
 \end{itemize}
 \begin{center}
 \Large Englischkenntnisse reichen zum lesen.\\
@@ -208,13 +219,20 @@ Einfach Notebook auf und tippen.
 
 \begin{frame}{Standard Library}
 Was hat die Standard Library alles?
+\pause
 \begin{itemize}
 \item Parser: JSON, CSV, XML
+\pause
 \item Protokolle: HTTP, FTP, POP3, IMAP4, SMTP
+\pause
 \item Grafische Interfaces: tkinter
+\pause
 \item Regul\"are Ausdr\"ucke
+\pause
 \item SQL(ite)-Interop
+\pause
 \item Logging Library
+\pause
 \end{itemize}
 POSIX-Tools, SSL-Wrapper, CURSES, GZIP/BZIP2/TAR compression...
 \end{frame}
@@ -272,6 +290,7 @@ POSIX-Tools, SSL-Wrapper, CURSES, GZIP/BZIP2/TAR compression...
 \item OS
 \end{itemize}
 \end{block}
+\pause
 \begin{block}{GUI-Programmierung}
 \begin{itemize}
 \item tkinter
@@ -279,6 +298,7 @@ POSIX-Tools, SSL-Wrapper, CURSES, GZIP/BZIP2/TAR compression...
 \item pyimgui
 \end{itemize}
 \end{block}
+\pause
 \column{65mm}
 \includegraphics[width=65mm]{./assets/vb.png}
 \end{columns}
@@ -291,13 +311,21 @@ POSIX-Tools, SSL-Wrapper, CURSES, GZIP/BZIP2/TAR compression...
 \column{\dimexpr\linewidth-65mm-5mm}
 \begin{block}{Data Science}
 \begin{itemize}
+\pause
 \item \textbf{Anaconda}
+\pause
 \item \textbf{numpy + scipy}
+\pause
 \item \textbf{matplotlib}
+\pause
 \item \textbf{pandas}
+\pause
 \item dask
+\pause
 \item scikit-learn
+\pause
 \item keras
+\pause
 \item BeautifulSoup
 \end{itemize}
 \end{block}
@@ -311,23 +339,31 @@ POSIX-Tools, SSL-Wrapper, CURSES, GZIP/BZIP2/TAR compression...
 \begin{center}
 \begin{block}{Web Development}
 \begin{itemize}
+\pause
 \item \textbf{Flask}
+\pause
 \begin{itemize}
 \item Pinterest
 \end{itemize}
+\pause
 \item \textbf{Django}
+\pause
 \begin{itemize}
 \item Youtube
 \item Instagram
 \item Dropbox, Spotify, Mozilla, NASA...
 \end{itemize}
+\pause
 \item \textbf{FastAPI}
+\pause
 \begin{itemize}
 \item Microsoft
 \item Netflix
 \item Uber
 \end{itemize}
+\pause
 \item \textbf{Pelican}
+\pause
 \item Django-REST
 \item Bottle.py
 \end{itemize}
